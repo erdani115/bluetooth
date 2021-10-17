@@ -1,0 +1,101 @@
+body{
+    max-width: 1000px;
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+    justify-content:center;
+    align-items: center;
+    /*text-align: center;*/
+    margin: 0 auto;
+    background-image: url(hatter.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.container{
+    max-width: 1000px;
+    box-sizing: border-box;
+    /*display: flex;
+    justify-content:center;
+    align-items: center;*/
+    /*text-align: center;*/
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+    background-color: rgb(172, 243, 243);
+    margin:20px;
+    padding: 20px;
+
+}
+.container::before{
+    content: "";
+    
+    /*background-position: center;*/
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right:0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    margin: 0 auto;
+    
+}
+
+.atmeretez{
+    width: 200px;
+    height: 200px;
+}
+.a{
+    text-align: justify;
+    text-indent: 20px;
+}
+.b{
+    color: blue;
+}
+.c{
+    color: blue;
+    text-align: center;
+}
+.felkover{
+    font-weight: bold;
+    color: blue;
+}
+footer{
+    width:100%;
+    color: blue;
+    text-align: right;
+}
+.kep-tarolo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.d{
+    border: 1px solid blue;
+    border-radius: 3px;
+    box-shadow: 5px 5px;
+}
+.tablazat{
+    
+    border: 3px solid blue;
+    text-align: center;
+    max-width: 300px;
+    margin:0 auto;
+    background-color: rgb(172, 243, 243);
+}
+
+table, th, td{
+    border: 3px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 0 auto;
+    text-align:center;
+    gap: 3px;
+}
+thead{
+    background-color: blue;
+    color: white;
+    gap: 10px;
+}
